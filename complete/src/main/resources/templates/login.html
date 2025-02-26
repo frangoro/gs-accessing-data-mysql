@@ -39,7 +39,7 @@
     <p th:if="${error}" th:text="${error}" style="color: red; text-align: center;"></p>
 
     <!-- Formulario de acceso -->
-    <form class="login-form" th:action="@{/login}" method="post">
+    <form class="login-form" th:action="@{/demo/login}" method="post">
       <label for="username">Dirección email o nombre de usuario</label>
       <input type="text" id="username" name="username" placeholder="Dirección email o nombre de usuario" required>
 

@@ -46,4 +46,10 @@ public class MainController {
     public String login() {
         return "login";  
     }
+    
+ // Mostrar la página de login
+    @PostMapping("/login")
+    public String iniciarSesion() {
+        return "tablero";  
+    }
 }
